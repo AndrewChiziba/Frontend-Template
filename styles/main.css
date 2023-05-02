@@ -1,9 +1,9 @@
 body{
     background-color: ghostwhite;
 }
-.grid{
+.container{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: repeat(3, 30vw[col-start]);
     grid-template-rows: auto;
     color: rgb(66, 66, 66);
 }
