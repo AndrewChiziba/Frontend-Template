@@ -4,6 +4,6 @@ body{
 .container{
     display: grid;
     grid-template-columns: repeat(3, 30vw[col-start]);
-    grid-template-rows: auto;
+    grid-template-rows: [row1] 50px [row2] 100px [row3] auto;
     color: rgb(66, 66, 66);
 }
